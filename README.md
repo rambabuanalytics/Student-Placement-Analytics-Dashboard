@@ -2,9 +2,9 @@
 
 ## 📌 Project Overview
 
-The Student Placement Analytics Dashboard is an interactive Power BI project designed to analyze placement performance, internship impact, technical skills, communication skills, and student employability across multiple departments.
+The Student Placement Analytics Dashboard is an interactive Power BI project designed to analyze student placement performance, internship impact, technical skills, communication skills, and employability trends across multiple departments.
 
-This dashboard helps educational institutions identify placement trends, monitor student performance, and make data-driven decisions to improve placement outcomes.
+This dashboard helps educational institutions track placement success, identify high-potential students, detect risk-zone candidates, and make data-driven decisions to improve placement outcomes.
 
 ---
 
@@ -12,17 +12,18 @@ This dashboard helps educational institutions identify placement trends, monitor
 
 - Analyze overall placement performance.
 - Identify top placement candidates.
-- Measure the impact of internships on placements.
-- Compare department-wise placement rates.
+- Measure internship impact on placements.
+- Compare placement performance across departments.
 - Detect students in the risk zone.
 - Evaluate the relationship between technical skills and placement probability.
+- Provide student-level placement intelligence.
 
 ---
 
-## 🛠 Tools & Technologies
+## 🛠 Tools & Technologies Used
 
 - Power BI
-- Microsoft Excel
+- Microsoft Excel / CSV
 - DAX
 - Data Modeling
 - Data Visualization
@@ -31,16 +32,18 @@ This dashboard helps educational institutions identify placement trends, monitor
 
 ## 📊 Dashboard Pages
 
-### 1️⃣ Placement Analytics Dashboard
+### 1️⃣ Executive Dashboard
 
 Features:
 - Total Students
-- Placement Rate
 - Placed Students
+- Placement Rate
 - Average Package
 - Department-wise Placement Analysis
+- Placement Status Distribution
 - Internship Impact Analysis
 - Technical Skills vs Placement Probability
+- Internship Domain Distribution
 
 ---
 
@@ -53,6 +56,7 @@ Features:
 - Backlog Impact Analysis
 - Internship Duration Analysis
 - Department Filters
+- Risk Zone Identification
 
 ---
 
@@ -64,6 +68,7 @@ Features:
 - Internship Experience Analysis
 - Technical Skills Assessment
 - Communication Skills Assessment
+- Department-wise Student Performance
 
 ---
 
@@ -81,47 +86,76 @@ Features:
 - Placement Rate: 80%
 - Total Students Analyzed: 600
 - Internship Students: 391
-- Students with internships show higher placement probability.
+- Students with internship experience show higher placement probability.
 - Higher technical skills significantly improve placement chances.
-- Backlogs negatively impact placement success.
+- Students with backlogs have lower placement success rates.
+
+---
+
+## 📂 Project Files
+
+- student dashboard.pbix
+- Dataset.csv
+- Executive Dashboard Page.png
+- Student Analytics Page.png
+- Student Intelligence Table.png
+- Tooltip Page.png
 
 ---
 
 ## 📷 Dashboard Preview
 
-### Placement Analytics Dashboard
-![Placement Dashboard](screenshots/executive-dashboard.png)
+### Executive Dashboard
+
+![Executive Dashboard](Executive%20Dashboard%20Page.png)
 
 ### Student Analytics Dashboard
-![Student Analytics](screenshots/student-analytics-page.png)
+
+![Student Analytics](Student%20Analytics%20Page.png)
 
 ### Student Intelligence Hub
-![Student Intelligence](screenshots/student-intelligence-table.png)
+
+![Student Intelligence](Student%20Intelligence%20Table.png)
 
 ### Tooltip Insights Page
-![Tooltip Page](screenshots/tooltip-page.png)
+
+![Tooltip](Tooltip%20Page.png)
 
 ---
 
 ## 💡 Business Value
 
-This dashboard enables colleges and training institutions to:
+This dashboard enables educational institutions to:
 
 - Improve placement strategies.
-- Identify high-potential students.
+- Identify top-performing students.
 - Detect at-risk students early.
 - Track internship effectiveness.
 - Support data-driven academic decisions.
+- Enhance overall placement outcomes.
+
+---
+
+## 🚀 Skills Demonstrated
+
+- Data Cleaning
+- Data Modeling
+- DAX Calculations
+- Dashboard Design
+- KPI Development
+- Business Intelligence
+- Data Visualization
+- Analytical Thinking
 
 ---
 
 ## 👨‍💻 Author
 
-**Rambabu Narvariya**
+### Rambabu Narvariya
 
 Aspiring Data Analyst
 
-Skills:
+**Skills:**
 - Power BI
 - SQL
 - Python
@@ -130,4 +164,5 @@ Skills:
 - Data Visualization
 
 ---
-⭐ If you like this project, consider giving it a star.
+
+⭐ If you found this project useful, consider giving it a Star.
